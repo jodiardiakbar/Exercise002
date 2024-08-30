@@ -1,4 +1,4 @@
-// number checker
+// 1. number checker
 let numberToCheck: number = 26;
 if (numberToCheck % 2 === 0) {
   console.log(`even number`);
@@ -6,9 +6,9 @@ if (numberToCheck % 2 === 0) {
   console.log(`odd number`);
 }
 
-// prime number
+// 2. prime number
 
-// sum 1 to n
+// 3. sum 1 to n
 let n: number = 3;
 let hasil: number = 0;
 for (let i: number = 0; i <= n; i++) {
@@ -16,7 +16,7 @@ for (let i: number = 0; i <= n; i++) {
 }
 console.log(hasil);
 
-// factorial mumber
+// 4. factorial mumber
 let factorialNumber: number = 4;
 let result: number = 1;
 for (let i: number = 1; i <= factorialNumber; i++) {
@@ -24,4 +24,4 @@ for (let i: number = 1; i <= factorialNumber; i++) {
 }
 console.log(result);
 
-// fibonacci
+// 5. fibonacci
