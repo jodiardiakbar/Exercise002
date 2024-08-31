@@ -25,3 +25,13 @@ for (let i: number = 1; i <= factorialNumber; i++) {
 console.log(result);
 
 // 5. fibonacci
+let fibonacciTerm: number = 15;
+let firstTerm: number = 0;
+let secondTerm: number = 1;
+let thirdTerm: number;
+for (let _i: number = 0; _i < fibonacciTerm + 1; _i++) {
+  console.log(firstTerm);
+  thirdTerm = firstTerm + secondTerm;
+  firstTerm = secondTerm;
+  secondTerm = thirdTerm;
+}
