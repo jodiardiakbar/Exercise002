@@ -35,3 +35,23 @@ for (let _i: number = 0; _i < fibonacciTerm + 1; _i++) {
   firstTerm = secondTerm;
   secondTerm = thirdTerm;
 }
+
+// another method
+// soal no 5
+const _number5: number = 13;
+let _fib: number = 0;
+let _n1: number = 0;
+let _n2: number = 1;
+let _hasilFib = `${_number5} -> `;
+console.log(_n1, _n2);
+
+for (let i = 1; i <= _number5; i++) {
+  _fib = _n1 + _n2;
+  console.log(_fib);
+  _n1 = _n2;
+  console.log(_n1);
+  _n2 = _fib;
+  console.log(_n2);
+  _hasilFib += i === _number5 ? `${_n1}` : `${_n1}, `;
+}
+console.log(_hasilFib);
